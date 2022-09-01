@@ -1,0 +1,252 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  body {
+
+    font-family: "Red Hat Text", sans-serif;
+    overflow-y: unset;
+  }
+
+  body a {
+    list-style: none;
+    text-decoration: none;
+    
+  }
+  .reactbody {
+    overflow: hidden;
+  }
+
+.home-render {
+  
+    background-image: url('../Images/bg-stars.svg'), linear-gradient( hsl(234, 17%, 12%) , hsl(235, 16%, 14%), hsl(265, 42%, 15%) );
+    text-align: center;
+    height: 100vh;
+  
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+   
+}
+
+.home-render h1 {
+
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 1.25rem;
+  margin-bottom: 3.3rem;
+  text-align: center;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 179px;
+}
+
+
+    .hills-footer {
+      display: table;
+      position: relative;
+      margin: auto;
+      height: 237px;
+      width: 100%;
+      
+    }
+
+    .hill {
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+
+    .reseau {
+      margin-right: 19px;
+      height: 1.6em;
+    }
+
+   .footericon {
+
+      z-index: 10;
+      position: relative;
+       top: 150px;
+    }
+
+  
+
+.count {
+  display: flex;
+}
+
+
+
+
+.count h2 {
+  color: hsl(345, 95%, 68%);
+  font-size: 4rem;
+ 
+
+}
+
+.timer {
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 145px;
+  height: 145px;
+  background: hsl(236, 21%, 26%);
+  border-radius: 10px;
+}
+
+.time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  margin: 25px;
+}
+
+
+
+span {
+ 
+  text-align: center;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: hsl(237, 18%, 59%);;
+}
+    
+
+    li {
+      display: inline-block;
+      font-size: 1.5em;
+      list-style-type: none;
+      padding: 1em;
+      text-transform: uppercase;
+    }
+    
+    li span {
+      display: block;
+      font-size: 4.5rem;
+    }
+ .footericon .reseau :hover {
+
+  color:  hsl(345, 95%, 68%);
+}
+
+
+@media only screen and (min-device-width : 375px) and (max-device-width : 686px)  {
+
+  .timer {
+    display: flex;
+align-items: center;
+justify-content: center;
+width: 79px;
+height: 74px;
+background: hsl(236, 21%, 26%);
+border-radius: 10px;
+  }
+
+ 
+  span {
+  
+      
+      text-align: center;
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: -2px;
+      color: hsl(237, 18%, 59%);
+  
+  }
+
+  .time {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    margin: 18px;
+  }
+
+  .home-render h1 {
+
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 1.25rem;
+    margin-bottom: 6.3rem;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: white;
+   
+  }
+  .count h2 {
+    color: hsl(345, 95%, 68%);
+    font-size: 3rem;
+  }
+
+  .hills-footer {
+    display: table;
+    position: relative;
+    margin: auto;
+    height: 237px;
+    width: unset;
+  }
+}
+
+
+@media only screen and (min-device-width : 0px) and (max-device-width : 374px)  {
+  .timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 66px;
+    height: 63px;
+    background: hsl(236, 21%, 26%);
+    border-radius: 10px;
+  }
+  .home-render h1 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 1.25rem;
+    margin-bottom: 0rem;
+    text-align: center;
+    font-weight: normal;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 56px;
+ 
+  }
+
+  span {
+    
+    text-align: center;
+font-size: 0.9rem;
+text-transform: uppercase;
+letter-spacing: 0px;
+color: hsl(237, 18%, 59%);
+  }
+
+  .time {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    margin: 10px;
+  }
+
+  .count h2 {
+    color: hsl(345, 95%, 68%);
+    font-size: 2rem;
+  }
+  .hills-footer {
+    display: table;
+    position: relative;
+    margin: auto;
+    height: 237px;
+    width: unset;
+  }
+
+}
